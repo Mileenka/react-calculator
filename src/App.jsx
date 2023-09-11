@@ -9,7 +9,6 @@ const App = () => {
   const [value, setValue] = useState("");
 
   const handleButtonClick = (val) => {
-    console.log(val);
     if (val !== "=") {
       setValue((prevValue) => prevValue + val);
     } else {
